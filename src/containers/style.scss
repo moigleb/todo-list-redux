@@ -1,0 +1,87 @@
+.container-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10% auto 0;
+  padding: 10px;
+  max-width: 450px;
+  background-color: white;
+  border-radius: 10px;
+  border: 5px solid transparent;
+  -webkit-box-shadow: -2px -2px 31px -10px rgba(0,0,0,0.75);
+  -moz-box-shadow: -2px -2px 31px -10px rgba(0,0,0,0.75);
+  box-shadow: -2px -2px 31px -10px rgba(0,0,0,0.75);
+  .form-container {
+    border-radius: 5px;
+    border: 2px solid #DDDDDD;
+
+    form {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+
+    input {
+      min-width: 350px;
+      height: 60px;
+      outline-style: none;
+      border: 1px transparent solid;
+      font-size: 22px;
+      padding-left: 10px;
+
+    }
+    button[type="submit"] {
+      background-color: #005BAA;
+      color: white;
+      outline-style: none;
+      text-transform: uppercase;
+      padding: 10px 25px;
+      font-size: 16px;
+      border: 1px #005BAA solid;
+    }
+  }
+  .button-panel-wrap {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    button {
+      padding: 10px 25px;
+      background-color: #9F1627;
+      color: white;
+      border: 1px solid #9F1627;
+      min-width: 122px;
+      text-transform: uppercase;
+      font-size: 16px;
+    }
+    button[disabled] {
+      padding: 10px 25px;
+      background-color: #9f5d6eb0;
+      color: white;
+      border: 1px solid #9f5d6eb0;
+      min-width: 122px;
+    }
+  }
+  .list-wrap {
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+    max-height: 400px;
+    //min-height: 400px;
+    overflow-y: scroll;
+
+    li {
+      list-style: none;
+      padding: 15px 15px;
+      border-radius: 50px;
+      border: 1px solid transparent;
+      margin: 5px;
+
+      -webkit-box-shadow: -2px -2px 31px -10px rgba(0,0,0,0.75);
+      -moz-box-shadow: -2px -2px 31px -10px rgba(0,0,0,0.75);
+      box-shadow: -2px -2px 31px -10px rgba(0,0,0,0.75);
+    }
+  }
+}
